@@ -1,4 +1,4 @@
-# apps/mobile
+# app-mobile
 
 Aplicativo React Native com foco em:
 

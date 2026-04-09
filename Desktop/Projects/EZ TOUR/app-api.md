@@ -1,4 +1,4 @@
-# apps/api
+# app-api
 
 Servico planejado para o backend NestJS.
 

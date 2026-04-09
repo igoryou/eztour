@@ -1,4 +1,4 @@
-# packages/ui
+# packages-ui
 
 Pacote previsto para o design system compartilhado:
 

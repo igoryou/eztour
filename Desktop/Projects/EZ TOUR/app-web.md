@@ -1,4 +1,4 @@
-# apps/web
+# app-web
 
 Aplicacao Next.js para:
 

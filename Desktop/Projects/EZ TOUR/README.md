@@ -18,22 +18,16 @@ Entregar um produto lancavel em 90 dias para uma equipe de 3 desenvolvedores, co
 
 ## Estrutura sugerida
 
-```text
-apps/
-  api/        Backend NestJS e gateways realtime
-  mobile/     App React Native para atleta, arbitro e organizador em campo
-  web/        Portal Next.js para organizadores, atletas e torcedores
-docs/         Arquitetura, dados, APIs, wireframes e roadmap
-infra/        Docker, observabilidade e ambientes
-packages/
-  ui/         Design system compartilhado
-```
+Arquivos direto na raiz do projeto:
 
-## Entregaveis criados neste repositorio
-
-- [Arquitetura](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/docs/architecture.md)
-- [Banco de dados relacional](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/docs/database.md)
-- [Plano de entrega, APIs, wireframes, aceite e testes](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/docs/delivery-plan.md)
+- [architecture.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/architecture.md)
+- [database.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/database.md)
+- [delivery-plan.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/delivery-plan.md)
+- [app-api.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/app-api.md)
+- [app-mobile.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/app-mobile.md)
+- [app-web.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/app-web.md)
+- [packages-ui.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/packages-ui.md)
+- [infra.md](C:/Users/igorl/Desktop/Projects/EZ%20TOUR/infra.md)
 
 ## Principios do produto
 
@@ -48,7 +42,7 @@ packages/
 
 Usar este blueprint para iniciar o monorepo com:
 
-1. `apps/api` com modulos de auth, championships, matches, stats e billing
-2. `apps/web` com dashboard do organizador e pagina publica do campeonato
-3. `apps/mobile` com modo arbitro e central do atleta
-4. `packages/ui` com tokens, componentes base e identidade visual
+1. `app-api.md` com o backend NestJS planejado
+2. `app-web.md` com o portal Next.js planejado
+3. `app-mobile.md` com o app React Native planejado
+4. `packages-ui.md` com o design system compartilhado
